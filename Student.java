@@ -62,3 +62,12 @@ class Student {
 		//TODO
 	}
 }
+class Course{
+	List<Student> students = new ArrayList<Student>();
+	int number = 0;
+
+	public Course(List<Student> students, int number) {
+		this.students = students;
+		this.number = number;
+	}
+}
